@@ -30,5 +30,6 @@ function showRange(self){
     let slider = document.getElementById("inRange").value;
     let output = document.getElementById("setRange");
     output.innerHTML = slider.concat("%");
+    
 }
         
