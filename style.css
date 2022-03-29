@@ -1,4 +1,25 @@
-body {background-color:tan;}
-h1{color:green;}
+/* body {background-color:tan;} */
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+h1{
+     color:grey;
+}
+form{
+    margin-left: 75px;
+    display: table;
+}
+
+button{
+    margin-left: 75px;
+}
+
+input {
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-left: 80px;
+}
+
 
 
