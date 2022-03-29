@@ -17,6 +17,7 @@ button{
 
 input {
     display: inline-block;
+    border-radius: 25px;
 }
 
 label {
