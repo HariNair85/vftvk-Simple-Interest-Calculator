@@ -7,16 +7,21 @@
         <h1>Simple Interest Calculator</h1>
             <form action="compute">
                 <label for="principal"> Amount </label> 
-                <input class="amounti" type="number" id="principal">
+                <input class="amount" type="number" id="principal">
                 <br></br>
                 <label for="rate">Rate</label>
-                <input type="range" id="range" min="0" max="100" name="range" step="0.5" value="3.5" onchange="showRange(this)">        
+                <input type="range" id="inRange" min="0" max="100" name="range" step="0.5" value="3.5" onchange="showRange(this)">        
                 <label id="setRange" class="setRange">3.5%</label>           
                 <br></br> 
                 <label for="years">No. of Years</label>  
-                <input type="number" min="1" max="20" value="1">
-                <br></br>
+                <input type="number" id="noofyears" min="1" max="20" value="1">
             </form>
             <button onclick="compute()">Compute Interest</button> <br></br>
+
+            <div class="txt" id="firstline"></div>
+            <div class="txt" id="secondline"></div>
+            <div class="txt" id="thirdline"></div>
+            <div class="txt" id="fourthline"></div><br>
+        <div id="lastline">&copy; Everyone can get Rich</div>
     </body>
 </html>
