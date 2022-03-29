@@ -10,11 +10,11 @@ function compute()
     interest = ( parseInt(amount) * ( 1 + ( interestrate / 100) * parseInt(noofyears) ) ) 
                         - parseInt(amount);
     document.getElementById("firstline").innerHTML = 
-            'If you deposit '.concat(amount);
+            'If you deposit '.concat(amount).concat(',');
     document.getElementById("secondline").innerHTML = 
-            'at an interest rate of '.concat(interestrate).concat("%");
+            'at an interest rate of '.concat(interestrate).concat("%.");
     document.getElementById("thirdline").innerHTML = 
-            'You will receive an amount of '.concat(parseInt(interest));
+            'You will receive an amount of '.concat(parseInt(interest)).concat(',');
     let currentyear = new Date().getFullYear();
     document.getElementById("fourthline").innerHTML = 
             'in the year '.concat(parseInt(noofyears)+currentyear);
